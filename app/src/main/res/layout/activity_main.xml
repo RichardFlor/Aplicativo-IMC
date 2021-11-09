@@ -120,6 +120,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
+                android:id="@+id/btn_entrar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/login_activity_entrar"
@@ -173,7 +174,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Desenvolvido por DS2T"
+        android:text="Desenvolvido por Richard"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="8dp"

@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".NovoUsuarioActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#0D070707">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,24 +52,25 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:padding="32dp">
+            android:padding="16dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/subtitulo_dados_autenticacao"
-                android:textSize="16sp"
+                android:textSize="24sp"
                 android:drawableStart="@drawable/lock_24"
                 android:drawableTint="@color/orange_700"
                 android:drawablePadding="8dp"
-                android:fontFamily="@font/montserrat"/>
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"/>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:hint="@string/e_mail"
-                app:boxBackgroundColor="@color/white">
+                app:boxBackgroundColor="#0D070707">
 
                 <EditText
                     android:id="@+id/edit_email"
@@ -82,13 +84,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/senha"
-                app:boxBackgroundColor="@color/white">
+                app:boxBackgroundColor="#0D070707">
 
                 <EditText
                     android:id="@+id/edit_senha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textPassword"/>
+                    android:inputType="numberPassword"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -108,7 +110,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:hint="@string/nome"
-                app:boxBackgroundColor="@color/white">
+                app:boxBackgroundColor="#0D070707">
 
                 <EditText
                     android:id="@+id/edit_nome"
@@ -123,7 +125,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:hint="@string/profissao"
-                app:boxBackgroundColor="@color/white">
+                app:boxBackgroundColor="#0D070707">
 
                 <EditText
                     android:id="@+id/edit_profissao"
@@ -138,7 +140,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:hint="@string/altura"
-                app:boxBackgroundColor="@color/white">
+                app:boxBackgroundColor="#0D070707">
 
                 <EditText
                     android:id="@+id/edit_altura"
@@ -153,7 +155,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:hint="@string/data_de_nascimento"
-                app:boxBackgroundColor="@color/white">
+                app:boxBackgroundColor="#0D070707">
 
                 <EditText
                     android:id="@+id/edit_data_nascimento"
